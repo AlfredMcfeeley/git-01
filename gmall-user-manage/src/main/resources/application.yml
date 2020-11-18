@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: gmall-user-manage
+  datasource:
+    password: 123
+    url: jdbc:mysql://localhost:3306/gmall?characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  type-aliases-package: com.galaxy.gmall.usermanage.bean #起别名
